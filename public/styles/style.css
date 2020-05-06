@@ -41,6 +41,7 @@ body {
     flex-wrap: wrap;
     opacity: 0;
     font-family: 'Jost', sans-serif;
+    z-index: 100;
 }
 
 .menu-link {
@@ -114,6 +115,30 @@ body {
 
 /* App Page */
 
+#app-page-screen {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#app-page-grid {
+    height: 75vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app-page-module {
+    height: 15em;
+    width: 15em;
+    background: white;
+    margin: 1em;
+    border-radius: 1em;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(150, 150, 150, 0.281);
+}
 
 /* -end- App Page */
