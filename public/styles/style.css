@@ -131,9 +131,9 @@ body {
     justify-content: center;
 }
 
-#app-page-module {
-    height: 15em;
-    width: 15em;
+#app-page-grid .column {
+    height: 30vh;
+    width: 30vh;
     background: white;
     margin: 1em;
     border-radius: 1em;
@@ -141,10 +141,38 @@ body {
     box-shadow: 10px 10px 10px rgba(150, 150, 150, 0.281);
 }
 
-#app-page-module:hover { /* moves the module up when hovered over */
+#app-page-grid .column:hover { /* moves the module up when hovered over */
     position: relative;
     top: -0.5em;
     box-shadow: 20px 20px 10px rgba(150, 150, 150, 0.281);
+}
+
+#app-page-grid .column .header {
+    position: absolute;
+    top: 14vh;
+    left: 3vh;
+}
+
+#app-page-grid .column .header h3 {
+    font-weight: 300;
+    font-size: 3em;
+    font-family: 'jost', sans-serif;
+}
+
+#app-page-grid #nature {
+    background-color: forestgreen;
+}
+
+#app-page-grid #urban {
+    background-color: lightgray;
+}
+
+#app-page-grid #calm {
+    background-color: lightsteelblue;
+}
+
+#app-page-grid #class {
+    background-color: tan;
 }
 
 /* -end- App Page */
