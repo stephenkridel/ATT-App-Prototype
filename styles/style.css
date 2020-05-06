@@ -1,3 +1,7 @@
+body {
+    background: lightblue!important;
+}
+
 /* navbar */
 
 #navbar {
@@ -6,15 +10,14 @@
     left: 0;
     width: 100vw;
     height: 8vh;
-    display: flex;
-    justify-content: right;
 }
 
 #navbar #toggler {
     color: black;
-    margin-top: 1em;
-    margin-right: 1em;
     transition: 0.25s;
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
 }
 
 #navbar #toggler:hover {
@@ -57,7 +60,7 @@
 #MenuScreenDiv i {
     position: absolute;
     top: 1em;
-    right: 1em;
+    right: 1.5em;
     color: white;
 }
 
