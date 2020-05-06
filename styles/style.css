@@ -71,11 +71,31 @@ body {
     cursor: pointer;
 }
 
-.show { /* added with javascript to fade in dimmers - transisiton time should match dimmer.js file */
+.show { /* triggered with javascript to fade in menu */
     transition: opacity 300ms;
 }
 
-.hide { /* added with javascript to fade in dimmers - transisiton time should match dimmer.js file */
+.hide { /* triggered with javascript to fade in menu */
     transition: opacity 300ms;
 }
+
 /* -end- Menu Screen */
+
+/* Home Screen */
+
+#HomeScreen {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#HomeScreen h1 {
+    font-size: 300%;
+    color: black;
+    font-weight: 300;
+    margin: 1em;
+}
+
+/* -end- Home Screen */

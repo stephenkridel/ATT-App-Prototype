@@ -1,0 +1,23 @@
+{
+  "name": "att-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "node": "^14.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenkridel/ATT-App.git"
+  },
+  "author": "Stephen Kridel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenkridel/ATT-App/issues"
+  },
+  "homepage": "https://github.com/stephenkridel/ATT-App#readme"
+}
