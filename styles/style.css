@@ -1,5 +1,6 @@
 body {
-    background: lightblue!important;
+    background: lightblue;
+    font-family: 'Jost', sans-serif;
 }
 
 /* navbar */
@@ -39,6 +40,7 @@ body {
     width: 100vw;
     flex-wrap: wrap;
     opacity: 0;
+    font-family: 'Jost', sans-serif;
 }
 
 .MenuLink {
