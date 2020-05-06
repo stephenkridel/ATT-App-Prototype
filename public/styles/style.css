@@ -31,7 +31,7 @@ body {
 
 /* Menu Screen */
 
-#MenuScreenDiv {
+#menu-screen-div {
     position: absolute;
     display: none;
     align-content: center;
@@ -43,7 +43,7 @@ body {
     font-family: 'Jost', sans-serif;
 }
 
-.MenuLink {
+.menu-link {
     color: white;
     width: 100%;
     text-align: center;
@@ -51,22 +51,34 @@ body {
     font-size: 200%;
     transition: 0.25s;
     cursor: default;
+    text-decoration: none;
 }
 
-.MenuLink span:hover {
+#x-button {
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
+}
+
+#x-button:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.menu-link span:hover {
     cursor: pointer;
     color: grey;
     transition: 0.25s;
 }
 
-#MenuScreenDiv i {
+#menu-screendiv i {
     position: absolute;
     top: 1em;
     right: 1.5em;
     color: white;
 }
 
-#MenuScreenDiv i:hover {
+#menu-screendiv i:hover {
     color: grey;
     cursor: pointer;
 }
@@ -83,7 +95,7 @@ body {
 
 /* Home Screen */
 
-#HomeScreen {
+#home-screen {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -91,7 +103,7 @@ body {
     justify-content: center;
 }
 
-#HomeScreen h1 {
+#home-screen h1 {
     font-size: 300%;
     color: black;
     font-weight: 300;
@@ -99,3 +111,9 @@ body {
 }
 
 /* -end- Home Screen */
+
+/* App Page */
+
+
+
+/* -end- App Page */

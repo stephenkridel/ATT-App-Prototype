@@ -11,6 +11,7 @@
     <link href="styles/style.css" rel="stylesheet" type="text/css">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css"  rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/grid.min.css" rel="stylesheet" type="text/css">
 
     <title>Attention Training</title>
 </head>
@@ -18,30 +19,32 @@
 
   <section id="navbar">
     <a class="item"><i class="big bars icon" id="toggler"></i></a>
-  </section> 
+</section> 
 
-  <section id="MenuScreenDiv" class="hide">
-    <i class="big x icon" id="xButton"></i>
-    <div class="MenuLink"><span>Home</span></div>
-    <div class="MenuLink"><span>App</span></div>
-    <div class="MenuLink"><span>Profile</span></div>
-    <div class="MenuLink"><span>About</span></div>
-  </section>
+<section id="menu-screen-div" class="hide">
+    <i class="big x icon" id="x-button"></i>
+    <a href="index.html" class="menu-link"><span>Home</span></a>
+    <a href="app_page.html" class="menu-link"><span>App</span></a>
+    <a class="menu-link"><span>Profile</span></a>
+    <a class="menu-link"><span>About</span></a>
+</section>
 
-  <section id="HomeScreen">
+  <section id="home-screen">
     <h1>The ATTention App</h1>
   </section>
 
-  <script src="scripts/MenuScreen.js"></script>
+  <script src="scripts/menu_screen.js"></script>
 
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="/__/firebase/7.14.2/firebase-app.js"></script>
-
-  <!-- TODO: Add SDKs for Firebase products that you want to use
-  https://firebase.google.com/docs/web/setup#available-libraries -->
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/7.14.2/firebase-app.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script defer src="/__/firebase/7.14.2/firebase-auth.js"></script>
+  <script defer src="/__/firebase/7.14.2/firebase-database.js"></script>
+  <script defer src="/__/firebase/7.14.2/firebase-messaging.js"></script>
+  <script defer src="/__/firebase/7.14.2/firebase-storage.js"></script>
   <script src="/__/firebase/7.14.2/firebase-analytics.js"></script>
+  <!-- initialize the SDK after all desired features are loaded -->
+  <script defer src="/__/firebase/init.js"></script>
 
-  <!-- Initialize Firebase -->
-  <script src="/__/firebase/init.js"></script>
 </body>
 </html>
