@@ -141,4 +141,10 @@ body {
     box-shadow: 10px 10px 10px rgba(150, 150, 150, 0.281);
 }
 
+#app-page-module:hover { /* moves the module up when hovered over */
+    position: relative;
+    top: -0.5em;
+    box-shadow: 20px 20px 10px rgba(150, 150, 150, 0.281);
+}
+
 /* -end- App Page */
