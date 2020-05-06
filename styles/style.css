@@ -1,0 +1,76 @@
+/* navbar */
+
+#navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: right;
+}
+
+#navbar #toggler {
+    color: black;
+    margin-top: 1em;
+    margin-right: 1em;
+    transition: 0.25s;
+}
+
+#navbar #toggler:hover {
+    color: grey;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+/* -end- navbar */
+
+/* Menu Screen */
+
+#MenuScreenDiv {
+    position: absolute;
+    display: none;
+    align-content: center;
+    background-color: coral;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    opacity: 0;
+}
+
+.MenuLink {
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin: 1em 0 1em 0;
+    font-size: 200%;
+    transition: 0.25s;
+    cursor: default;
+}
+
+.MenuLink span:hover {
+    cursor: pointer;
+    color: grey;
+    transition: 0.25s;
+}
+
+#MenuScreenDiv i {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    color: white;
+}
+
+#MenuScreenDiv i:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.show { /* added with javascript to fade in dimmers - transisiton time should match dimmer.js file */
+    transition: opacity 300ms;
+}
+
+.hide { /* added with javascript to fade in dimmers - transisiton time should match dimmer.js file */
+    transition: opacity 300ms;
+}
+/* -end- Menu Screen */

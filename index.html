@@ -12,24 +12,21 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="ui sidebar">
-        <div id="sidebar" class="ui left vertical menu sidebar">
-          <a id="initialLink" class="item">Home</a>
-          <a id="initialLink" class="item">Home</a>
-        </div>
-      </div>
-    
-      <div id="pusher" class="pusher">
-    
-        <div id="menu" class="ui borderless menu">
-          <a class="item" id="sidebarIcon"><i class="bars icon"></i></a>
-          <div class="ui right borderless menu">
 
-          </div>
-        </div>
+    <div id="navbar">
+      <a class="item"><i class="big bars icon" id="toggler"></i></a>
+    </div> 
+
+    <div id="MenuScreenDiv" class="hide">
+      <i class="big x icon" id="xButton"></i>
+      <div class="MenuLink"><span>Home</span></div>
+      <div class="MenuLink"><span>Profile</span></div>
+      <div class="MenuLink"><span>About</span></div>
+      <div class="MenuLink"><span>Information</span></div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
-    <script src="scripts/sidebar.js"></script>
+    <script src="scripts/MenuScreen.js"></script>
 </body>
 </html>
