@@ -51,7 +51,7 @@ xButton.addEventListener('click', function(){
         screenCover.classList.remove('show-slow');
         screenCover.style.opacity = 0;
         setTimeout(function(){
-            body.style.overflowY = 'hidden';
+            body.style.overflowY = 'initial';
             screenCover.style.display = 'none';
         }, 500);
 
