@@ -154,7 +154,7 @@ body {
 }
 
 #app-page-grid .column .header h3 {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 2em;
     font-family: 'jost', sans-serif;
 }
@@ -172,18 +172,22 @@ body {
 
 #app-page-grid #nature {
     background-color: forestgreen;
+    color: forestgreen;
 }
 
 #app-page-grid #urban {
-    background-color: lightgray;
+    background-color: grey;
+    color: grey;
 }
 
 #app-page-grid #calm {
-    background-color: lightsteelblue;
+    background-color: steelblue;
+    color: steelblue
 }
 
 #app-page-grid #class {
     background-color: tan;
+    color: tan;
 }
 
 /* -end- App Page */
