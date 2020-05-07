@@ -55,13 +55,13 @@ body {
     text-decoration: none;
 }
 
-#x-button {
+#x-button-menu {
     position: absolute;
     top: 1em;
     right: 1.5em;
 }
 
-#x-button:hover {
+#x-button-menu:hover {
     color: grey;
     cursor: pointer;
 }
@@ -200,7 +200,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.7);
     z-index: 1;
     display: none;
     align-items: center;
@@ -217,11 +217,24 @@ body {
     z-index: 2;
 }
 
+#screen-cover #x-button-app {
+    position: absolute;
+    top: 2em;
+    right: 1.5em;
+    transition: 0.25s;
+}
+
+#screen-cover i:hover {
+    cursor: pointer;
+    color: grey;
+    transition: 0.25s;
+}
+
 .show-slow {
     transition: opacity 750ms;
 }
 
-.show-hide {
+.hide-slow {
     transition: opacity 750ms;
 }
 

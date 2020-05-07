@@ -8,7 +8,9 @@ var
 
     app             = document.getElementById('app'),
 
-    body            = document.getElementsByTagName('body')[0];
+    body            = document.getElementsByTagName('body')[0],
+
+    xButton         = document.getElementById('x-button-app'),
 
     screenCover     = document.getElementById('screen-cover')
 ;
@@ -39,3 +41,27 @@ for(i = 0; i < moduleArray.length; i++){
 
 };
 
+
+
+xButton.addEventListener('click', function(){
+
+    setTimeout(function(){
+
+        screenCover.classList.add('hide-slow');
+        screenCover.classList.remove('show-slow');
+        screenCover.style.opacity = 0;
+        setTimeout(function(){
+            body.style.overflowY = 'hidden';
+            screenCover.style.display = 'none';
+        }, 500);
+
+    }, 500);
+
+
+    app.classList.add('hide-slow');
+    app.classList.remove('show-slow');
+    app.style.opacity = 0;
+    setTimeout(function(){
+        app.style.display = 'none';
+    }, 750);
+});

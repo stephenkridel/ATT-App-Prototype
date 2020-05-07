@@ -1,7 +1,7 @@
 var
     toggler     = document.getElementById('toggler'),
     menuScreen  = document.getElementById('menu-screen-div'),
-    xButton     = document.getElementById('x-button')
+    xButton     = document.getElementById('x-button-menu')
 ;
 
 // dims the page and shows the menu
