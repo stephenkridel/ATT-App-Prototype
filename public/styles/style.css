@@ -124,16 +124,16 @@ body {
 }
 
 #app-page-grid {
-    height: 75vh;
-    width: 80vw;
+    height: 75%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #app-page-grid .column {
-    height: 30vh;
-    width: 30vh;
+    height: 13em;
+    width: 13em;
     background: white;
     margin: 1em;
     border-radius: 1em;
@@ -149,8 +149,8 @@ body {
 
 #app-page-grid .column .header {
     position: absolute;
-    top: 3.25vh;
-    left: 3vh;
+    top: 1.5em;
+    left: 2em;
 }
 
 #app-page-grid .column .header h3 {
@@ -191,3 +191,38 @@ body {
 }
 
 /* -end- App Page */
+
+/* App */
+
+#screen-cover {
+    position: fixed; /* keeps the cover in the center despite scroll location */
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+    z-index: 1;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#app {
+    position: absolute;
+    height: 60vh;
+    width: 75vh;
+    border-radius: 0.5em;
+    background-color: forestgreen;
+    display: none;
+    z-index: 2;
+}
+
+.show-slow {
+    transition: opacity 750ms;
+}
+
+.show-hide {
+    transition: opacity 750ms;
+}
+
+/* -end- App */
