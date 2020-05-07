@@ -41,6 +41,7 @@ body {
     flex-wrap: wrap;
     opacity: 0;
     font-family: 'Jost', sans-serif;
+    z-index: 100;
 }
 
 .menu-link {
@@ -84,7 +85,7 @@ body {
 }
 
 .show { /* triggered with javascript to fade in menu */
-    transition: opacity 300ms;
+    transition: opacity 310ms;
 }
 
 .hide { /* triggered with javascript to fade in menu */
@@ -114,6 +115,79 @@ body {
 
 /* App Page */
 
+#app-page-screen {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#app-page-grid {
+    height: 75vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app-page-grid .column {
+    height: 30vh;
+    width: 30vh;
+    background: white;
+    margin: 1em;
+    border-radius: 1em;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(150, 150, 150, 0.281);
+}
+
+#app-page-grid .column:hover { /* moves the module up when hovered over */
+    position: relative;
+    top: -0.5em;
+    box-shadow: 20px 20px 10px rgba(150, 150, 150, 0.281);
+}
+
+#app-page-grid .column .header {
+    position: absolute;
+    top: 3.25vh;
+    left: 3vh;
+}
+
+#app-page-grid .column .header h3 {
+    font-weight: 400;
+    font-size: 2em;
+    font-family: 'jost', sans-serif;
+}
+
+#app-page-grid .column .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 33%;
+    width: 100%;
+    background-color: gainsboro;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+#app-page-grid #nature {
+    background-color: forestgreen;
+    color: forestgreen;
+}
+
+#app-page-grid #urban {
+    background-color: grey;
+    color: grey;
+}
+
+#app-page-grid #calm {
+    background-color: steelblue;
+    color: steelblue
+}
+
+#app-page-grid #class {
+    background-color: tan;
+    color: tan;
+}
 
 /* -end- App Page */
