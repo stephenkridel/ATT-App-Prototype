@@ -200,7 +200,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(173, 216, 230, 0.7);
     z-index: 1;
     display: none;
     align-items: center;
@@ -209,10 +209,10 @@ body {
 
 #app {
     position: absolute;
-    height: 60vh;
-    width: 75vh;
-    border-radius: 0.5em;
-    background-color: forestgreen;
+    height: 28rem;
+    width: 34rem;
+    border-radius: 0;
+    background-color: white;
     display: none;
     z-index: 2;
 }
@@ -236,6 +236,52 @@ body {
 
 .hide-slow {
     transition: opacity 750ms;
+}
+
+#app .header {
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+#app .description {
+    position: absolute;
+    top: 10rem;
+    margin: 0 2rem 0 2rem;
+    line-height: 150%;
+}
+
+#app #play-button {
+    position: absolute;
+    bottom: 4rem;
+    left: 2rem;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 4rem;
+    background-color: lightblue;
+    transition: 0.25s;
+}
+
+#app #play-button:hover {
+    cursor: pointer;
+}
+
+#app #play-button:active {
+    cursor: pointer;
+    background-color: rgb(94, 186, 219);
+}
+
+#play-button i {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    color: coral;
+}
+
+#play-button i:hover {
+    color: coral;
 }
 
 /* -end- App */
