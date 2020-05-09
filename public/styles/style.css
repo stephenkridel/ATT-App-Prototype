@@ -273,14 +273,22 @@ body {
     background-color: rgb(94, 186, 219);
 }
 
-#play-button i {
+#play-button .big.play.icon  {
     position: absolute;
     left: 2rem;
     top: 2rem;
     color: coral;
 }
 
-#play-button i:hover {
+#play-button i:hover, #play-button .big.pause.icon:hover {
+    color: coral;
+}
+
+#play-button .big.pause.icon {
+    display: none;
+    position: absolute;
+    left: 1.8rem;
+    top: 2rem;
     color: coral;
 }
 
