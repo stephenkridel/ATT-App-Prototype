@@ -3,12 +3,6 @@ var playButton  = document.getElementById('play-button'),
     pauseIcon   = document.getElementsByClassName('big pause icon')[0],
     xButton     = document.getElementById('x-button-app'),
 
-    /*
-    natureSound = new Howl({
-        src: ['assets/nature.mp3']
-    }),
-    */
-
     natureSound = new Audio('assets/nature.mp3'),
 
     onOffTracker = 0
