@@ -1,12 +1,9 @@
 var
     toggler     = document.getElementById('toggler'),
     menuScreen  = document.getElementById('menu-screen-div'),
-<<<<<<< HEAD:public/scripts/menu_screen.js
     xButton     = document.getElementById('x-button'),
-    body        = document.getElementsByTagName('body')[0]
-=======
+    body        = document.getElementsByTagName('body')[0],
     xButton     = document.getElementById('x-button-menu')
->>>>>>> MainAppPrototype:scripts/menu_screen.js
 ;
 
 // dims the page and shows the menu
